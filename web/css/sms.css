@@ -1,0 +1,79 @@
+@media (min-width: 768px) {
+    .sidebar-nav .navbar .navbar-collapse {
+        padding: 0;
+        max-height: none;
+    }
+    .sidebar-nav .navbar ul {
+        float: none;
+    }
+    .sidebar-nav .navbar ul {
+        display: block;
+    }
+    .sidebar-nav .navbar li {
+        float: none;
+        display: block;
+    }
+    .sidebar-nav .navbar li a {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+.menu-sms{
+    margin: 0;
+    padding: 0;
+    width: 20%;
+}
+.body-sms{
+    padding-left: 0;
+    height: 500px;
+    border-left: 1px solid #dcdcdc;
+}
+.body-sms .navbar-nav{
+    padding-left: 5px;
+    float: none;
+    width: 100%;
+}
+.body-sms .navbar-nav{
+    background: #e4e4e4;
+}
+.body-sms .navbar-nav li{
+    padding-right: 15px;
+}
+.body-sms .navbar-nav h5{
+    font-size: 14px;
+    color: #595959;
+}
+.sidebar-nav .navbar-nav li{
+    text-align: left;
+    padding-top: 8px;
+    padding-left: 5px;
+}
+.sidebar-nav .navbar-nav li:first-child{
+    padding-top: 0;
+}
+.text-info{
+    padding: 10px;
+    background-color: #fdfdfd;
+}
+.checkele{
+    padding-right: 20px;
+}
+.text-info h4{
+    padding-top: 2px;
+    font-size: 16px;
+    font-weight: lighter;
+    color: slategray;
+}
+.table>tbody>tr>td{
+    border-top: none;
+}
+.text-mail .table tr td:first-child{
+    width: 20px;=
+}
+.form-send{
+    padding: 20px;
+}
+.form-send textarea{
+    height: 250px;
+    resize: none;
+}
